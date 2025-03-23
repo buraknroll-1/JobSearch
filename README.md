@@ -1,6 +1,6 @@
 # URL Keyword Searcher
 
-A Python tool to search career websites for specific keywords (e.g., "manager") without opening a browser. It checks raw HTML first for speed, then uses headless rendering for JavaScript-heavy sites, delivering clean, simple results.
+A Python tool to search career websites for specific keywords manually entered by the user (e.g., "manager") without opening a browser. It checks raw HTML first for speed, then uses headless rendering for JavaScript-heavy sites, delivering clean, simple results.
 
 ## Features
 - **Dual-Mode Scraping**: Uses `requests` for static HTML and Playwright for JS-rendered content.
